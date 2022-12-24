@@ -1,7 +1,9 @@
 import React from 'react';
-// import Hamburger from './Hamburger';
+import { Link } from "react-router-dom";
+
 import classes from './Navbar.module.css';
-const Navbar = props => {
+
+function Navbar() {
 
     return <>
 
@@ -13,15 +15,14 @@ const Navbar = props => {
                 <span className={classes.bar}></span>
             </div>
             <div className={classes.navLogo}>
-               <h2>Talal Ahmed</h2>
+                <h2>Talal Ahmed</h2>
             </div>
             <ul className={[classes.navMenu]}>
-                <li className={classes.navItem}><a href="#about-me">About Me</a></li>
-                <li className={classes.navItem}><a href="#my-projects">Projects</a></li>
-                <li className={classes.navItem}><a href="#my-skills">My Skills</a></li>
-                <li className={classes.navItem}><a href="#let's-connect">Let's Connect</a></li>
+                <li className={classes.navItem}><Link to="/About">About Me</Link></li>
+                <li className={classes.navItem}><Link to="Projects">Projects</Link></li>
+                <li className={classes.navItem}><Link to="">My Skills</Link></li>
+                <li className={classes.navItem}><Link to="/Contact">Let's Connect</Link></li>
             </ul>
-
 
         </nav>
 

@@ -1,0 +1,60 @@
+
+form {
+    font-size: 1rem;
+}
+.contact-me{
+    margin-top: 10em;
+}
+.contact-me h1 {
+    text-align: center;
+}
+
+.contact-box {
+    position: relative;
+    margin: 0% 20% 20% 20%;
+    border-radius: 10px;
+}
+
+.contact-box .inputbox input,
+.contact-box .inputbox textarea {
+    position: relative;
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 2em;
+    border: none;
+    outline: none;
+    /* border-radius: 5px; */
+    color: var(--dark);
+    background-color: transparent;
+    border-bottom: 1px solid;
+}
+
+.contact-box .inputbox label {
+    position: absolute;
+    padding: 5px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    left: 0;
+}
+
+.contact-box .inputbox input:focus~label,
+.contact-box .inputbox input:valid~label,
+.contact-box .inputbox textarea:focus~label,
+.contact-box .inputbox textarea:valid~label {
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.submit button {
+    padding: 17px 0px;
+    width: 100%;
+    font-weight: bold;
+    background-color: var(--dark);
+    color: var(--light);
+    box-shadow: 0px 0px 10px 0px rgba(100%, 100%, 100%, 0.5);
+}
+
+.submit-btn:hover {
+    color: var(--dark);
+    background-color: var(--light);
+}
