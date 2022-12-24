@@ -76,14 +76,14 @@ form {
         flex-direction: column;
     }
     .contact-header{
-        width: 90%;
+        width: 95%;
         margin: auto;
     }
     .contact-me h1 {
         font-size: 2.7rem;
     }
     .contact-box {
-        width: 90%;
+        width: 80%;
         margin: auto;
     }
 
