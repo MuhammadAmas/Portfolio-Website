@@ -28,7 +28,7 @@ function Contact() {
                     </div>
                     <div className={classes.inputbox}>
                         <label>Type Your Message...</label>
-                        <textarea name="message" id="message" rows="5" required="required"></textarea>
+                        <textarea name="message" id="message" rows="12" required="required"></textarea>
                     </div>
                     <div className={classes.submit}>
                         <button type="submit" value="Send" class="submit-btn">Send!</button>
