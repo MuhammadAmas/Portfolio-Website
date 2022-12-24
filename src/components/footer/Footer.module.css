@@ -1,0 +1,11 @@
+
+footer{
+    padding: 5em 4em;
+}
+
+.credits{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 3em;
+    opacity: 0.6;
+}
