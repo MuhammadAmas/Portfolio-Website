@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark: #00072d;
+    --light: #A6E1FA;
+    --white: #fff;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color: var(--dark); */
+}
+
+.App {
+
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}

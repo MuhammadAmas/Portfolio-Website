@@ -1,11 +1,10 @@
-
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 2em;
     padding: 0.5em;
-    color: var(--gray);
+    color: var(--dark);
 }
 
 .navLogo {
@@ -27,15 +26,15 @@
     justify-content: space-between;
     align-items: center;
     gap: 4em;
-    
+
 }
 
 .navbar ul li a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
-    border-bottom: 2px solid var(--gray);
-    color: var(--gray);     
+    border-bottom: 2px solid var(--dark);
+    color: var(--dark);
 }
 
 .navbar ul li a:hover {
@@ -56,13 +55,13 @@
     margin: 5px auto;
     --webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    /* background-color: var(--gray); */
-    background-color: gray;
-
+    background-color: var(--dark);
     margin-right: 15px;
 }
 
-@media (max-width: 768px){
+
+@media (max-width: 768px) {
+
     .hamburger {
         display: block;
     }
@@ -86,16 +85,15 @@
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: var(--gray);
-        /* color: var(--white); */
-        color: black;
+        background-color: var(--dark);
+        color: var(--light);
         width: 100%;
         text-align: center;
         transition: 0.3s;
     }
 
     .navbar ul li a {
-        color: var(--white);
+        color: var(--light);
     }
 
     .navItem {
@@ -105,4 +103,5 @@
     .navMenu.active {
         left: 0;
     }
+
 }
