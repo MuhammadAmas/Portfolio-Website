@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
 .about-container {
     color: var(--dark);
     padding: 0 2em;
@@ -12,9 +17,10 @@
     line-height: 64px;
 }
 
-.profile-picture{
-    /* padding: 0 2em; */
+.profile-picture {
+    padding: 0 2em;
 }
+
 .profile-picture img {
     border-radius: 24px;
 }
@@ -29,4 +35,13 @@
         font-size: 36px;
         line-height: 36px;
     }
+
+    .profile-picture {
+        padding: 0 0;
+    }
+
+    .profile-picture img {
+        min-width: 300px;
+    }
+
 }

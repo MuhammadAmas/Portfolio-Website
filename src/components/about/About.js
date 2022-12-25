@@ -1,6 +1,8 @@
 import React from "react";
 import classes from "./About.module.css";
 import picture from '../../assets/profile-picture.png';
+import resume from "../../assets/Talal Ahmed Resume.pdf";
+
 function About() {
     return <>
         <div className={classes['about-container']}>
@@ -32,6 +34,11 @@ function About() {
                     <br />
                     NLP
                 </p>
+                <br />
+                <br />
+                <p><a href={resume}> <u>RESUME</u></a></p>
+                <br />
+                <p>Feel free to reach me at talalhq311@gmail.com or connect on <a href={"https://www.linkedin.com/in/talal-ahmed-a5479917b"}><u>LinkedIn</u></a> ✿</p>
             </div>
             <div className={classes['profile-picture']}>
                 <img src={picture}></img>

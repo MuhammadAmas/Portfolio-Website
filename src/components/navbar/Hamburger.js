@@ -29,7 +29,7 @@ function Hamburger() {
               </a>
             </li>
             <li>
-              <a href="#about" className={classes.hamburgerLink} onClick={toggleMenu}>
+              <a href="/About" className={classes.hamburgerLink} onClick={toggleMenu}>
                 ABOUT
               </a>
             </li>
