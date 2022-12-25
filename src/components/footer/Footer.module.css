@@ -3,9 +3,13 @@ footer{
     padding: 5em 4em;
 }
 
+.logo img{
+    max-width: 120px;
+}
 .credits{
     display: flex;
     justify-content: space-between;
-    margin: auto 3em;
+    margin: auto 2em;
     /* opacity: 0.6; */
+    margin-top: 2em;
 }

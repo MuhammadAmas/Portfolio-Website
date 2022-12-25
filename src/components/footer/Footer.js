@@ -1,19 +1,18 @@
 import React from "react";
 import classes from './Footer.module.css';
 import '../../../src/App.css';
-import logo from'../../assets/logo.png';
+import logo from '../../assets/logo.png';
 
 function Footer() {
 
     return <>
         <footer>
 
-            <div>
-            {/* <img src={logo} className={classes.logo}/> */}
-
-                <h1>Talal Ahmed</h1>
+            <div className={classes.logo}>
+                <img src={logo} />
+                {/* <h1>Talal Ahmed</h1> */}
             </div>
-            
+
             <div>
                 <h3>Want to chat?</h3>
                 <h4>Feel free to drop me an email at <a href="mailto:talalhq311@gmail.com">talalhq311@gmail.com</a></h4>
