@@ -32,8 +32,8 @@ a {
 @media only screen and (max-width: 600px) {
     .about-container {
         flex-direction: column-reverse;
-        /* padding: 0 1em;
-        margin-top: 1em; */
+        /* padding: 0 1em; */
+        margin-top: 1em;
     }
 
     .about-container h1 {
