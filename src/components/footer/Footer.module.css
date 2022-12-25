@@ -25,6 +25,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+    footer {
+        padding: 1em;
+    }
     .credits {
         flex-direction: column;
         justify-content: center;
