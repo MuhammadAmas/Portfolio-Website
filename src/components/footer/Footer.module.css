@@ -1,15 +1,34 @@
-
-footer{
+footer {
     padding: 5em 4em;
 }
 
-.logo img{
-    max-width: 120px;
+.logo img {
+    max-width: 100px;
 }
-.credits{
+
+.email {
+    color: #ff753a;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 0.3em;
+}
+
+.credits {
     display: flex;
     justify-content: space-between;
-    margin: auto 2em;
-    /* opacity: 0.6; */
+    padding: auto 2em;
     margin-top: 2em;
+}
+
+@media (max-width: 768px) {
+    .credits {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1em;
+    }
+
 }

@@ -10,12 +10,11 @@ function Footer() {
 
             <div className={classes.logo}>
                 <img src={logo} />
-                {/* <h1>Talal Ahmed</h1> */}
             </div>
 
-            <div>
+            <div className={classes.details}>
                 <h3>Want to chat?</h3>
-                <h4>Feel free to drop me an email at <a href="mailto:talalhq311@gmail.com">talalhq311@gmail.com</a></h4>
+                <h4>Feel free to drop me an email at <a href="mailto:talalhq311@gmail.com" className={classes.email}>talalhq311@gmail.com</a></h4>
             </div>
 
 
