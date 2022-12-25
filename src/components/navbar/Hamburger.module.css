@@ -25,6 +25,7 @@
 
 .open .bar {
   background-color: var(--white);
+  background-color: red;
 }
 
 .bar::before {
@@ -60,6 +61,7 @@
   background-color: var(--dark);
   transition: 0.4s margin-left ease;
   opacity: 1;
+  
 }
 
 .open .menu {

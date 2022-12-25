@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import classes from './Hamburger.module.css';
+import { Link } from "react-router-dom";
+
 
 function Hamburger() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,9 +34,7 @@ function Hamburger() {
               </a>
             </li>
             <li>
-              <a href="#contact" className={classes.hamburgerLink} onClick={toggleMenu}>
-                CONTACT
-              </a>
+              <Link to="/Contact" className={classes.hamburgerLink} onClick={toggleMenu}>CONTACT</Link>
             </li>
           </ul>
         </div>
