@@ -48,7 +48,7 @@
     cursor: pointer;
 }
 
-.bar {
+/* .bar {
     display: block;
     width: 25px;
     height: 3px;
@@ -57,12 +57,12 @@
     transition: all 0.3s ease-in-out;
     background-color: var(--dark);
     margin-right: 15px;
-}
+} */
 
 
 @media (max-width: 768px) {
 
-    .hamburger {
+    /* .hamburger {
         display: block;
     }
 
@@ -76,7 +76,7 @@
 
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
-    }
+    } */
 
 
     .navMenu {
@@ -99,9 +99,9 @@
     .navItem {
         margin: 16px 0;
     }
-
+/* 
     .navMenu.active {
         left: 0;
-    }
+    } */
 
 }

@@ -6,9 +6,10 @@ function Hamburger() {
   function toggleMenu() {
     setIsMenuOpen(!isMenuOpen);
   }
+
   return (
     <>
-      <div className={isMenuOpen  ? classes.hamburgerMenu + classes.open : classes.hamburgerMenu}>
+      <div className={isMenuOpen ? (classes.hamburgerMenu, classes.open) : classes.hamburgerMenu}>
         <div className={classes.mask} onClick={toggleMenu}></div>
         <div className={classes.hamburger} onClick={toggleMenu}>
           <div className={classes.bar}></div>
