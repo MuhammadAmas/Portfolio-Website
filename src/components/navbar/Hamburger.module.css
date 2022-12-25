@@ -25,7 +25,6 @@
 
 .open .bar {
   background-color: var(--white);
-  background-color: red;
 }
 
 .bar::before {

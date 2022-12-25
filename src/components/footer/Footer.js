@@ -1,12 +1,16 @@
 import React from "react";
 import classes from './Footer.module.css';
 import '../../../src/App.css';
+import logo from'../../assets/logo.png';
+
 function Footer() {
 
     return <>
         <footer>
 
             <div>
+            {/* <img src={logo} className={classes.logo}/> */}
+
                 <h1>Talal Ahmed</h1>
             </div>
             

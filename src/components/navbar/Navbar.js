@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Hamburger from './Hamburger'
 import classes from './Navbar.module.css';
+import logo from'../../assets/logo.png';
 
 function Navbar() {
 
@@ -9,6 +10,7 @@ function Navbar() {
 
         <nav className={classes.navbar}>
             <div className={classes.navLogo}>
+                <img src={logo} className={classes.logo}/>
                 <h2>Talal Ahmed</h2>
             </div>
             <ul className={[classes.navMenu]}>
