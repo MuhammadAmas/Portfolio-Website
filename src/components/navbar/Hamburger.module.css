@@ -58,6 +58,7 @@
   left: 0;
   margin-left: 100%;
   background-color: var(--dark);
+  color: var(--white);
   transition: 0.4s margin-left ease;
   opacity: 1;
   
@@ -79,7 +80,7 @@
 
 .hamburgerLink {
   display: block;
-  color: var(--light);
+  color: var(--white);
   font-size: 1.1rem;
   letter-spacing: 0.4em;
   padding: 1em 2em;

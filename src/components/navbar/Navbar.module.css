@@ -15,18 +15,17 @@
     font-size: 0.9rem;
 }
 
-.logo {
+/* .logo {
     color: red;
     background-color: inherit;
 
-}
+} */
 
 .navbar img {
     width: 50px;
 }
 
 .navMenu {
-
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -39,16 +38,24 @@
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
-    border-bottom: 2px solid var(--dark);
+    /* border-bottom: 2px solid var(--dark); */
+    border: 2px solid var(--dark) ;
+    border-radius: 28px;
+    padding: 8px 36px;
     color: var(--dark);
+    /* background-color: var(--white); */
 }
 
 .navbar ul li a:hover {
-    border-bottom: 0;
-    transition: 0.3s;
-    opacity: 0.5;
+    transition: 0.5s;
+    background-color: var(--dark);
+    color: var(--white);
 }
 
+.active{
+    color: red;
+    background-color: red;
+}
 
 @media (max-width: 768px) {
     .navMenu {
@@ -58,14 +65,14 @@
         gap: 0;
         flex-direction: column;
         background-color: var(--dark);
-        color: var(--light);
+        color: var(--white);
         width: 100%;
         text-align: center;
         transition: 0.3s;
     }
 
     .navbar ul li a {
-        color: var(--light);
+        color: var(--white);
     }
 
     .navItem {

@@ -6,6 +6,7 @@ import Contact from "./components/contact/Contact";
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import About from "./components/about/About";
+import Projects from "./components/projects/Projects";
 
 
 // import { library } from '@fortawesome/fontawesome-svg-core';
@@ -18,7 +19,7 @@ function App() {
      <BrowserRouter>
       <Navbar />
       <Routes>
-        {/* <Route path="/Contact" element={<Contact />} /> */}
+        <Route path="/Projects" element={<Projects />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>

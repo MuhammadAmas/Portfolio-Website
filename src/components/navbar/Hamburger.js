@@ -19,22 +19,19 @@ function Hamburger() {
         <div className={classes.menu}>
           <ul className={classes.hamburgerLinks}>
             <li>
-              <a href="#home" className={classes.hamburgerLink} onClick={toggleMenu}>
-                HOME
-              </a>
+              <Link to="/Projects" className={classes.hamburgerLink} onClick={toggleMenu}>
+                PROJECTS
+              </Link>
             </li>
             <li>
-              <a href="#portfolio" className={classes.hamburgerLink} onClick={toggleMenu}>
-                PORTFOLIO
-              </a>
-            </li>
-            <li>
-              <a href="/About" className={classes.hamburgerLink} onClick={toggleMenu}>
+              <Link to="/About" className={classes.hamburgerLink} onClick={toggleMenu}>
                 ABOUT
-              </a>
+              </Link>
             </li>
             <li>
-              <Link to="/Contact" className={classes.hamburgerLink} onClick={toggleMenu}>CONTACT</Link>
+              <Link to="/Contact" className={classes.hamburgerLink} onClick={toggleMenu}>
+                CONTACT
+              </Link>
             </li>
           </ul>
         </div>
