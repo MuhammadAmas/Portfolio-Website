@@ -1,0 +1,32 @@
+.about-container {
+    color: var(--dark);
+    padding: 0 2em;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+}
+
+.about-container h1 {
+    display: block;
+    font-size: 52px;
+    line-height: 64px;
+}
+
+.profile-picture{
+    /* padding: 0 2em; */
+}
+.profile-picture img {
+    border-radius: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-container {
+        flex-direction: column-reverse;
+        padding: 0 1em;
+    }
+
+    .about-container h1 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+}
