@@ -6,7 +6,7 @@ function Projects (){
     return<>
         <div className={classes.header}>
             <h1>
-                Hola! I'm Talal<p style={{opacity: "0.3", display:"inline"}}>✿</p> ML Engineer
+                Hola! I'm Talal <p style={{opacity: "0.3", display:"inline"}}>✿</p> ML Engineer
             </h1>
 
             <p>
