@@ -2,16 +2,18 @@
 form {
     font-size: 1rem;
 }
-.contact-me{
+.contact-me {
     display: flex;
     flex-direction: row;
     margin: 5em auto auto auto;
 }
-.contact-header{
+
+.contact-header {
     width: 40%;
     padding-left: 2em;
     margin: auto;
 }
+
 .contact-me h1 {
     font-size: 4rem;
     /* margin-left: 5px; */
@@ -38,14 +40,14 @@ form {
     color: var(--dark);
     background-color: transparent;
     box-shadow: inset 0px 2px 6px rgb(0 0 0 / 15%);
-    padding: 16px 20px;    
+    padding: 16px 20px;
     outline: none;
     font-size: 13px;
     min-height: 42px;
 }
 
 .contact-box .inputbox label {
-    padding:5px 0;
+    padding: 5px 0;
     pointer-events: none;
     transition: 0.5s;
     left: 0;
@@ -66,23 +68,26 @@ form {
     margin-top: 3px;
     margin-bottom: 3px;
     text-align: center;
-    box-shadow:2px 6px 10px rgb(0 0 0 / 10%) !important;
+    box-shadow: 2px 6px 10px rgb(0 0 0 / 10%) !important;
 
 }
 
 
 @media (max-width: 768px) {
-    .contact-me{
+    .contact-me {
         flex-direction: column;
     }
-    .contact-header{
+
+    .contact-header {
         width: 95%;
         margin: auto;
         margin-bottom: 4em;
     }
+
     .contact-me h1 {
         font-size: 2.7rem;
     }
+
     .contact-box {
         width: 80%;
         margin: auto;
