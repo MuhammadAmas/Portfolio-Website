@@ -30,7 +30,7 @@ function Contact() {
                 </div>
             </div>
             <div className={classes["contact-box"]}>
-                <form action="https://formsubmit.co/amaswaseem@gmail.com" method="POST">
+                <form action="https://formsubmit.co/talalhq311@gmail.com" method="POST">
                     <div className={classes["inputbox"]}>
                         <label>Name</label>
                         <input type="text" name="name" required="required" />
