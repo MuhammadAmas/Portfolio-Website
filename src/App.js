@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import './App.css';
@@ -7,7 +7,7 @@ import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
-import Thanks from "./components/thanks/Thanks";
+import Loader from "./Loader";
 
 
 // import { library } from '@fortawesome/fontawesome-svg-core';
@@ -16,7 +16,20 @@ import Thanks from "./components/thanks/Thanks";
 
 
 function App() {
+  const [showLoader, setShowLoader] = useState(true);
+  setTimeout(() => {
+    setShowLoader(false);
+  }, 2500)
+
+
   return <>
+
+    <div className="loader">
+      {
+        showLoader && <Loader />
+      }
+    </div>
+
     <BrowserRouter>
       <Navbar />
       <Routes>
