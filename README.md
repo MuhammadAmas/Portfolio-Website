@@ -6,7 +6,7 @@ It is a Portfolio Web App built on React.js where you can know the person more.
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit.Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit. Thanks!
 ## Features
 
 **📖 Multi-Page Layout**
