@@ -9,7 +9,9 @@ function Footer() {
         <footer>
 
             <div className={classes.logo}>
-                <img src={logo} />
+                <a href={"https://talalahmed.vercel.app"}>
+                    <img src={logo} />
+                </a>
             </div>
 
             <div className={classes.toconnect}>
@@ -38,8 +40,8 @@ function Footer() {
             </div>
 
             <div className={classes.credits}>
-                <div>Copyright © 2023 Muhammad Amas</div>
-                <div>Designed & Developed by <a href={"https://muhammadamas.netlify.app/"} target={"blank"}>Amas</a></div>
+                <div style={{ opacity: "0.8" }}>© 2023 Amas | Website by <a href={"https://muhammadamas.netlify.app/"} target={"blank"}>Amas</a></div>
+                {/* <div>Designed & Developed by <a href={"https://muhammadamas.netlify.app/"} target={"blank"}>Amas</a></div> */}
             </div>
         </footer>
     </>

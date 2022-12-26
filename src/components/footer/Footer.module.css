@@ -1,5 +1,6 @@
 footer {
     padding: 5em 4em;
+    padding-bottom: 1.5em !important;
 }
 
 .logo img {
@@ -34,8 +35,7 @@ footer {
 
 .credits {
     display: flex;
-    justify-content: space-between;
-    padding: auto 2em;
+    justify-content: center;
     margin-top: 2em;
 }
 

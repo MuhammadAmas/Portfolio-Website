@@ -11,8 +11,12 @@ function Navbar() {
 
         <nav className={classes.navbar}>
             <div className={classes.navLogo}>
-                <img src={logo} className={classes.logo} />
-                <h2>Talal Ahmed</h2>
+                <a href={"https://talalahmed.vercel.app"}>
+                    <img src={logo} className={classes.logo} />
+                </a>
+                <a href={"https://talalahmed.vercel.app"}>
+                    <h2>Talal Ahmed</h2>
+                </a>
             </div>
             <ul className={[classes.navMenu]}>
                 <li className={(pathname === '/Projects') ? (classes.active, classes.navItem) : classes.navItem}>
