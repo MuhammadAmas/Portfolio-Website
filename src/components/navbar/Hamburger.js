@@ -24,6 +24,11 @@ function Hamburger() {
               </Link>
             </li>
             <li>
+              <Link to="/Research" className={classes.hamburgerLink} onClick={toggleMenu}>
+                RESEARCH
+              </Link>
+            </li>
+            <li>
               <Link to="/About" className={classes.hamburgerLink} onClick={toggleMenu}>
                 ABOUT
               </Link>

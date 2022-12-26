@@ -24,14 +24,14 @@
     margin: auto;
     margin-bottom: 10em;
     border-radius: 2em;
-    box-shadow: inset rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    box-shadow: inset rgba(0, 7, 45, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .project-item img {
     max-width: 400px;
 }
 
-.project-desciption h1{
+.project-desciption h1 {
     font-size: 2rem;
     margin-bottom: 2em;
 }

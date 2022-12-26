@@ -8,6 +8,7 @@ import Footer from './components/footer/Footer';
 import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
 import Loader from "./Loader";
+import Research from "./components/research papers/Research";
 
 
 // import { library } from '@fortawesome/fontawesome-svg-core';
@@ -35,6 +36,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Projects />} />
         <Route path="/Projects" element={<Projects />} />
+        <Route path="/Research" element={<Research />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>

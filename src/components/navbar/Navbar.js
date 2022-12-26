@@ -22,11 +22,14 @@ function Navbar() {
                 <li className={(pathname === '/Projects') ? (classes.active, classes.navItem) : classes.navItem}>
                     <Link to="/Projects">Projects</Link>
                 </li>
+                <li className={(pathname === '/Research') ? (classes.active, classes.navItem) : classes.navItem}>
+                    <Link to="/Research">Research Papers</Link>
+                </li>
                 <li className={(pathname === '/About') ? (classes.active, classes.navItem) : classes.navItem}>
                     <Link to="/About">About Me</Link>
                 </li>
                 <li className={(pathname === '/Contact') ? (classes.active, classes.navItem) : classes.navItem}>
-                    <Link to="/Contact">Let's Connect</Link>
+                    <Link to="/Contact">Contact</Link>
                 </li>
             </ul>
             <Hamburger />
