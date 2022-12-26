@@ -17,7 +17,7 @@ function Footer() {
             <div className={classes.toconnect}>
                 <div className={classes.email}>
                     <h3>Want to chat?</h3>
-                    <h4>Feel free to drop me an email at <a href="mailto:talalhq311@gmail.com" className={classes.emailText}>talalhq311@gmail.com</a></h4>
+                    <h4>Feel free to drop me an email at <a href="mailto:talalahq311@gmail.com" className={classes.emailText}>talalahq311@gmail.com</a></h4>
                 </div>
 
                 <div className={classes.socials}>

@@ -1,4 +1,5 @@
 import React from "react";
+import Thanks from "../thanks/Thanks";
 import classes from './Contact.module.css';
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -30,7 +31,7 @@ function Contact() {
                 </div>
             </div>
             <div className={classes["contact-box"]}>
-                <form action="https://formsubmit.co/talalhq311@gmail.com" method="POST">
+                <form action="https://formsubmit.co/talalahq311@gmail.com" method="POST">
                     <div className={classes["inputbox"]}>
                         <label>Name</label>
                         <input type="text" name="name" required="required" />
@@ -51,7 +52,7 @@ function Contact() {
                         <button type="submit" value="Send" class="submit-btn">Send!</button>
                     </div>
 
-                    <input type="hidden" name="_next" value="https://muhammadamas.netlify.app/thanks.html" />
+                    <input type="hidden" name="_next" value="https://talalahmed.vercel.app" />
                     <input type="hidden" name="_captcha" value="false" />
 
                 </form>

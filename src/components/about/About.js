@@ -44,7 +44,7 @@ function About() {
 
                 <br />
 
-                <p>Feel free to reach me at talalhq311@gmail.com or connect on <a href={"https://www.linkedin.com/in/talal-ahmed-a5479917b"} target={"_blank"}><u>LinkedIn</u></a> ✿</p>
+                <p>Feel free to reach me at talalahq311@gmail.com or connect on <a href={"https://www.linkedin.com/in/talal-ahmed-a5479917b"} target={"_blank"}><u>LinkedIn</u></a> ✿</p>
             </div>
 
             <div className={classes['profile-picture']}>

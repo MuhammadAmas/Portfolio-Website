@@ -7,6 +7,7 @@ import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
+import Thanks from "./components/thanks/Thanks";
 
 
 // import { library } from '@fortawesome/fontawesome-svg-core';
@@ -27,6 +28,7 @@ function App() {
     </BrowserRouter>
 
     <Footer />
+
   </>
 }
 
