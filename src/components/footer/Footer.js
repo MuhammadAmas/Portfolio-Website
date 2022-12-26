@@ -21,7 +21,7 @@ function Footer() {
 
             <div className={classes.credits}>
                 <div>Copyright © 2023 Muhammad Amas</div>
-                <div>Thanks to <a href={"https://muhammadamas.netlify.app/"} target={"blank"}>Amas</a> for the development</div>
+                <div>Designed & Developed by <a href={"https://muhammadamas.netlify.app/"} target={"blank"}>Amas</a></div>
             </div>
         </footer>
     </>
