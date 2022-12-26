@@ -61,7 +61,7 @@
   color: var(--white);
   transition: 0.4s margin-left ease;
   opacity: 1;
-  
+
 }
 
 .open .menu {

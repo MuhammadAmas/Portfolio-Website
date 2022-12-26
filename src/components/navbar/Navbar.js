@@ -6,7 +6,7 @@ import logo from '../../assets/logo.png';
 
 function Navbar() {
     const { pathname } = useLocation();
-console.log(pathname);
+    console.log(pathname);
     return <>
 
         <nav className={classes.navbar}>

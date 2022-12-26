@@ -6,15 +6,30 @@ footer {
     max-width: 100px;
 }
 
-.email {
+.emailText {
     color: #ff753a;
 }
 
-.details {
+.toconnect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email {
     display: flex;
     flex-direction: column;
     gap: 1em;
     margin-top: 0.3em;
+}
+
+.socials {
+    margin-top: 1em;
+}
+
+.socials i {
+    margin: 1em;
 }
 
 .credits {
@@ -29,6 +44,7 @@ footer {
         margin-top: 2em;
         padding: 1em;
     }
+
     .credits {
         flex-direction: column;
         justify-content: center;
@@ -36,4 +52,8 @@ footer {
         gap: 1em;
     }
 
+    .toconnect {
+        flex-direction: column;
+
+    }
 }

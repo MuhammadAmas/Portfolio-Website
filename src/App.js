@@ -16,7 +16,7 @@ import Projects from "./components/projects/Projects";
 
 function App() {
   return <>
-     <BrowserRouter>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Projects />} />
@@ -25,7 +25,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
-    
+
     <Footer />
   </>
 }

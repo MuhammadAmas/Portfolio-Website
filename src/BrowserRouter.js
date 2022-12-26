@@ -5,8 +5,8 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 
 
-function BrowserRouter (){
-    return <>
+function BrowserRouter() {
+  return <>
     <BrowserRouter>
       <Navbar />
       <Routes>
@@ -16,7 +16,7 @@ function BrowserRouter (){
       </Routes>
     </BrowserRouter>
     {/* <Footer/> */}
-    </>
+  </>
 }
 
 export default BrowserRouter;

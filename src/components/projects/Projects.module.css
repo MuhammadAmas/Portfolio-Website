@@ -1,17 +1,17 @@
-.header{
+.header {
     font-size: 1.8rem;
     padding: 0 3em;
     margin-right: 20%;
     margin-top: 5em;
 }
 
-.header h1{
+.header h1 {
     margin-bottom: 0.7em;
 }
 
 
 @media only screen and (max-width: 600px) {
-    .header{
+    .header {
         font-size: 1.3rem;
         padding: 0 1em;
         margin-right: 0;

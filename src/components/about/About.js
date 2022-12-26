@@ -8,7 +8,7 @@ function About() {
         <div className={classes['about-container']}>
             <div className={classes['about']}>
                 <h1>Welcome to my little corner to know me ✸ </h1>
-                
+
                 <br />
 
                 <p><b>Bonjour! </b>I am Talal Ahmed a Machine learning Engineer. A person who loves Machine learning but why? Because of philosophy, Empiricism is something that talks about learning from experiences and I found Machine learning a modern way that helps us to understand our noumenal world.</p>
