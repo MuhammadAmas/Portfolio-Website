@@ -15,7 +15,7 @@ form {
 .contact-header {
     width: 40%;
     padding-left: 2em;
-    margin-top: 7%;
+    margin-top: 5%;
 }
 
 .contact-me h1 {
@@ -98,6 +98,7 @@ form {
 @media (max-width: 768px) {
     .contact-me {
         flex-direction: column;
+        margin-top: 1.5em;
     }
 
     .contact-header {
