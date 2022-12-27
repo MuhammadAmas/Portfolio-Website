@@ -8,7 +8,7 @@ footer {
 }
 
 .emailText {
-    color: #ff753a;
+    color: var(--orange);
 }
 
 .toconnect {

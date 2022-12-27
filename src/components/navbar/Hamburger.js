@@ -39,20 +39,20 @@ function Hamburger() {
               </Link>
             </li>
           </ul>
-          <div className={classes.socials}>
-            <a href={"https://www.linkedin.com/in/talal-ahmed-a5479917b"} target={"_blank"}>
+          {/* <div className={(classes.socials)}>
+            <a href={"https://www.linkedin.com/in/talal-ahmed-a5479917b"}>
               <i class="fa-brands fa-linkedin-in fa-lg"></i>
             </a>
-            <a href={"https://github.com/TalalAhmed311"} target={"_blank"}>
+            <a href={"https://github.com/TalalAhmed311"}>
               <i class="fa-brands fa-github fa-lg"></i>
             </a>
-            <a href={"https://medium.com/@talalahq311"} target={"_blank"}>
+            <a href={"https://medium.com/@talalahq311"}>
               <i class="fa-brands fa-medium fa-lg"></i>
             </a>
-            <a href={"https://www.facebook.com/talal.qurashi.5"} target={"_blank"}>
+            <a href={"https://www.facebook.com/talal.qurashi.5"}>
               <i class="fa-brands fa-facebook-f fa-lg"></i>
             </a>
-          </div>
+          </div> */}
 
 
         </div>

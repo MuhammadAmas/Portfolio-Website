@@ -111,15 +111,21 @@
 }
 
 .socials {
+  display: block;
   margin-top: 1em;
   display: flex;
+  flex-direction: row !important;
   justify-content: center;
   padding: 2em 0;
+  width: 100%;
+
 }
 
 .socials i {
   margin: 1em;
-  color: var(--white);
+  color: red;
+  transition: 0.3s all ease;
+
 }
 
 @media screen and (max-width: 768px) {

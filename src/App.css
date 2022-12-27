@@ -11,6 +11,7 @@
     --dark: #00072d;
     --light: #A6E1FA;
     --white: #fff;
+    --orange: #ff753a;
 }
 
 
@@ -20,6 +21,25 @@ html {
 
 body {
     /* background-color: var(--dark); */
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    /* background: rgba(37, 36, 36, 0.5); */
+    box-shadow: inset 0px 5px 10px rgb(0 0 0 / 15%);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--dark);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--orange);
 }
 
 .App {
@@ -53,12 +73,12 @@ ul {
     color: var(--white) !important;
 }
 
-.loader-container img{
+.loader-container img {
     max-width: 150px;
     max-height: 150px;
 }
 
-.loader-container p{
+.loader-container p {
     color: var(--white);
     margin: 1em;
     font-weight: 700;
@@ -71,13 +91,14 @@ ul {
     background-size: 80%;
     animation: shine 2.5s linear infinite;
     position: relative;
-  }
-  
-  @keyframes shine {
+}
+
+@keyframes shine {
     0% {
-      background-position-x: -500%;
+        background-position-x: -500%;
     }
+
     100% {
-      background-position-x: 500%;
+        background-position-x: 500%;
     }
-  }
+}
