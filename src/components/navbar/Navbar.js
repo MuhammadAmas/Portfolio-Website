@@ -6,7 +6,6 @@ import logo from '../../assets/logo.png';
 
 function Navbar() {
     const { pathname } = useLocation();
-    console.log(pathname);
 
     return <>
 
@@ -22,16 +21,16 @@ function Navbar() {
             </div>
 
             <ul className={[classes.navMenu]}>
-                <li className={(pathname === '/Projects') ? (classes.active + " "+ classes.navItem) : classes.navItem}>
+                <li className={(pathname === '/Projects') ? (classes.active + " " + classes.navItem) : classes.navItem}>
                     <Link to="/Projects">Projects</Link>
                 </li>
-                <li className={(pathname === '/Research') ? (classes.active + " "+ classes.navItem) : classes.navItem}>
+                <li className={(pathname === '/Research') ? (classes.active + " " + classes.navItem) : classes.navItem}>
                     <Link to="/Research">Research Papers</Link>
                 </li>
-                <li className={(pathname === '/About') ? (classes.active + " "+ classes.navItem) : classes.navItem}>
+                <li className={(pathname === '/About') ? (classes.active + " " + classes.navItem) : classes.navItem}>
                     <Link to="/About">About Me</Link>
                 </li>
-                <li className={(pathname === '/Contact') ? (classes.active + " "+ classes.navItem) : classes.navItem}>
+                <li className={(pathname === '/Contact') ? (classes.active + " " + classes.navItem) : classes.navItem}>
                     <Link to="/Contact">Contact</Link>
                 </li>
             </ul>

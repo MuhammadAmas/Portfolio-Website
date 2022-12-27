@@ -1,10 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import classes from './Projects.module.css';
 
 function Projects() {
+    let d = new Date();
+    var hour = d.getHours();
+    let minutes = d.getMinutes();
+    let meridian = 'am';
+
+    if (hour >= 12) {
+        hour = hour - 12;
+        meridian = 'pm';
+    }
+    hour = (hour < 10) ? "0" + hour : hour;
+    minutes = (minutes < 10) ? "0" + minutes : minutes;
+    let time = `${hour} : ${minutes} ${meridian}`
+
 
     return <>
         <div className={classes.header}>
+            <p style={{ ['marginBottom']: "0.8em" }}>
+                📍 Karachi &nbsp;&nbsp; 🕐 {time}
+            </p>
             <h1>
                 Hola! I'm Talal <p style={{ opacity: "0.3", display: "inline" }}>✿</p> ML Engineer
             </h1>

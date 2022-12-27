@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./About.module.css";
-import picture from '../../assets/profile-picture.png';
-import resume from "../../assets/Talal Ahmed Resume.pdf";
+// import picture from '../../assets/profile-picture.png';
+// import resume from "../../../public/Talal Ahmed Resume.pdf";
 
 function About() {
     return <>
@@ -40,7 +40,7 @@ function About() {
                 <br />
                 <br />
 
-                <p><a href={resume}> <u>RESUME</u></a></p>
+                <p><a href={"/Talal Ahmed Resume.pdf"}> <u>RESUME</u></a></p>
 
                 <br />
 
@@ -48,7 +48,7 @@ function About() {
             </div>
 
             <div className={classes['profile-picture']}>
-                <img src={picture}></img>
+                <img src={'/my-image.png'}></img>
             </div>
 
 

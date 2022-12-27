@@ -6,7 +6,7 @@ function Loader() {
     return (
         <div className='loader-container'>
             <img src={logo} />
-            <p>Nice to see ya!</p>   
+            <p>Nice to see ya!</p>
         </div>
     );
 }
