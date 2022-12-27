@@ -8,7 +8,7 @@ function Research() {
 
         <div className={classes["research-paper-header"]}>
             <h1>
-                Research papers <p style={{ opacity: "0.5", display: "inline" }}>📖</p>
+                Research papers 📖
             </h1>
 
             <p>
