@@ -6,6 +6,16 @@ function Research() {
 
     return <>
 
+            <div className={classes.header}>
+                <h1>
+                    Research papers
+                </h1>
+
+                <p>
+                    A Machine learning Engineer and a AI Research Enthusiast who uses his skills for solving different problems in Computer Vision, Natural Language Processing and Data Analytics.
+                </p>
+
+            </div>
         <div className={classes['projects-container']}>
 
             <div className={classes['project-item']}>

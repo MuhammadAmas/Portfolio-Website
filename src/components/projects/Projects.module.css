@@ -27,7 +27,7 @@
     box-shadow: inset rgba(0, 7, 45, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     border-radius: 2em;
     max-width: 350px;
-    border: 3px var(--dark) solid;
+    /* border: 3px var(--dark) solid; */
 }
 
 .project-desciption h1 {

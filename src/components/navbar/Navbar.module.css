@@ -42,20 +42,21 @@
     border: 2px solid var(--dark);
     border-radius: 28px;
     padding: 8px 36px;
-    color: var(--dark);
+    /* color: var(--dark); */
     /* background-color: var(--white); */
 }
 
-.navbar ul li a:hover {
+.navbar ul li a:hover,
+.active a {
     transition: 0.5s;
     background-color: var(--dark);
     color: var(--white);
 }
 
-.active {
+/* .active a{
     color: red;
     background-color: red;
-}
+} */
 
 @media (max-width: 768px) {
     .navMenu {
