@@ -47,16 +47,6 @@ function Projects() {
 
 
             <div className={classes['project-item']}>
-                <a href={'https://github.com/TalalAhmed311/Computer-Vision/tree/main/Neural%20Style%20transfer'} target={'_blank'}>
-                    <img src='/project-images/neural style pic.png' />
-                </a>
-                <div className={classes['project-desciption']}>
-                    <h1>Neural Style Transfer</h1>
-                </div>
-            </div>
-
-
-            <div className={classes['project-item']}>
                 <a href={'https://github.com/TalalAhmed311/Computer-Vision/tree/main/Object%20Detection%20using%20Tensorflow%20API'} target={'_blank'}>
                     <img src='/project-images/object detect.png' />
                 </a>
@@ -67,11 +57,11 @@ function Projects() {
 
 
             <div className={classes['project-item']}>
-                <a href={'https://github.com/TalalAhmed311/Computer-Vision/tree/main/OCR'} target={'_blank'}>
-                    <img src='/project-images/ocr.png' />
+                <a href={'https://github.com/TalalAhmed311/Computer-Vision/tree/main/Neural%20Style%20transfer'} target={'_blank'}>
+                    <img src='/project-images/neural style pic.png' />
                 </a>
                 <div className={classes['project-desciption']}>
-                    <h1>OCR</h1>
+                    <h1>Neural Style Transfer</h1>
                 </div>
             </div>
 
@@ -85,6 +75,15 @@ function Projects() {
                 </div>
             </div>
 
+
+            <div className={classes['project-item']}>
+                <a href={'https://github.com/TalalAhmed311/Computer-Vision/tree/main/OCR'} target={'_blank'}>
+                    <img src='/project-images/ocr.png' />
+                </a>
+                <div className={classes['project-desciption']}>
+                    <h1>OCR</h1>
+                </div>
+            </div>
 
         </div>
 
