@@ -6,16 +6,16 @@ function Research() {
 
     return <>
 
-            <div className={classes.header}>
-                <h1>
-                    Research papers
-                </h1>
+        <div className={classes["research-paper-header"]}>
+            <h1>
+                Research papers <p style={{ opacity: "0.5", display: "inline" }}>📖</p>
+            </h1>
 
-                <p>
-                    A Machine learning Engineer and a AI Research Enthusiast who uses his skills for solving different problems in Computer Vision, Natural Language Processing and Data Analytics.
-                </p>
+            <p>
+                The research literature in AI research is coming way faster than ever before. I try to be part of this remarkable research space and thought replicating existing papers is a good start.
+            </p>
 
-            </div>
+        </div>
         <div className={classes['projects-container']}>
 
             <div className={classes['project-item']}>

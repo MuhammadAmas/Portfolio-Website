@@ -17,7 +17,7 @@ import Research from "./components/research papers/Research";
 
 
 function App() {
-  const [showLoader, setShowLoader] = useState(false);
+  const [showLoader, setShowLoader] = useState(true);
   setTimeout(() => {
     setShowLoader(false);
   }, 2500)
