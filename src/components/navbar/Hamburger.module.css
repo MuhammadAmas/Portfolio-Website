@@ -52,6 +52,8 @@
 .menu {
   position: fixed;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   top: 0;
   right: 0;
   bottom: 0;
@@ -106,6 +108,18 @@
   opacity: 0.6;
   pointer-events: all;
   touch-action: none;
+}
+
+.socials {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+}
+
+.socials i {
+  margin: 1em;
+  color: var(--white);
 }
 
 @media screen and (max-width: 768px) {
