@@ -31,7 +31,7 @@ form {
     align-items: center;
 }
 
-.socials i {
+.socials a {
     margin: 1em;
     color: var(--dark);
 }

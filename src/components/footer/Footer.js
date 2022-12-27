@@ -3,6 +3,9 @@ import classes from './Footer.module.css';
 import '../../../src/App.css';
 import logo from '../../assets/logo.png';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookF, faGithub, faLinkedinIn, faMediumM } from '@fortawesome/free-brands-svg-icons'
+
 function Footer() {
 
     return <>
@@ -22,20 +25,21 @@ function Footer() {
 
                 <div className={classes.socials}>
                     <a href={"https://www.linkedin.com/in/talal-ahmed-a5479917b"} target={"_blank"}>
-                        <i className="fa-brands fa-linkedin-in fa-lg"></i>
+                        <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
                     </a>
                     <a href={"https://github.com/TalalAhmed311"} target={"_blank"}>
-                        <i className="fa-brands fa-github fa-lg"></i>
+                        <FontAwesomeIcon icon={faGithub} size="lg" />
                     </a>
                     <a href={"https://medium.com/@talalahq311"} target={"_blank"}>
-                        <i className="fa-brands fa-medium fa-lg"></i>
+                        <FontAwesomeIcon icon={faMediumM} size="lg" />
                     </a>
                     <a href={"https://www.facebook.com/talal.qurashi.5"} target={"_blank"}>
-                        <i className="fa-brands fa-facebook-f fa-lg"></i>
+                        <FontAwesomeIcon icon={faFacebookF} size="lg" />
                     </a>
                     {/* <a href={""}>
                         <i class="fa-regular fa-envelope"></i>
                     </a> */}
+
                 </div>
             </div>
 

@@ -12,7 +12,7 @@ import Research from "./components/research papers/Research";
 
 
 function App() {
-  const [showLoader, setShowLoader] = useState(true);
+  const [showLoader, setShowLoader] = useState(false);
   setTimeout(() => {
     setShowLoader(false);
   }, 2500)
