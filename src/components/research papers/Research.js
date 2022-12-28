@@ -65,6 +65,15 @@ function Research() {
 
 
 
+            {/* <div className={classes['project-item']}>
+                <a href={'Github Repository link'}>
+                    <img src='/research-papers-images/add the image name with extension that you added' />
+                </a>
+                <div className={classes['project-desciption']}>
+                    <h1>Research paper name</h1>
+                </div>
+            </div> */}
+
         </div>
 
 

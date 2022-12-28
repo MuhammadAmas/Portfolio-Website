@@ -101,6 +101,16 @@ function Projects() {
                 </div>
             </div>
 
+            {/* <div className={classes['project-item']}>
+                <a href={'Github Repository link'} target={'_blank'}>
+                    <img src='/project-images/add the image name with extension that you added' />
+                </a>
+                <div className={classes['project-desciption']}>
+                    <h1>project name</h1>
+                </div>
+            </div> */}
+
+
         </div>
 
     </>
