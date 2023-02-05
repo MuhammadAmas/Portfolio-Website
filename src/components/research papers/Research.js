@@ -19,6 +19,15 @@ function Research() {
         <div className={classes['projects-container']}>
 
             <div className={classes['project-item']}>
+                <a href={'https://github.com/TalalAhmed311/Attention-is-all-you-Need'}>
+                    <img src='/research-papers-images/Transformer.jpeg' />
+                </a>
+                <div className={classes['project-desciption']}>
+                    <h1>Transformer</h1>
+                </div>
+            </div>
+
+            <div className={classes['project-item']}>
                 <a href={'https://github.com/TalalAhmed311/Research/tree/main/vgg16'}>
                     <img src='/research-papers-images/vgg16.jpg' />
                 </a>

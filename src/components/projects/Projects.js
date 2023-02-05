@@ -33,6 +33,25 @@ function Projects() {
         <div className={classes['projects-container']}>
 
             <div className={classes['project-item']}>
+                <a href={'https://github.com/TalalAhmed311/Computer-Vision/tree/main/Intruder%20Detection'} target={'_blank'}>
+                    <img src='/project-images/Intruder Detection.jpeg' />
+                </a>
+                <div className={classes['project-desciption']}>
+                    <h1>Intruder Detection using Contours</h1>
+                </div>
+            </div>
+
+            <div className={classes['project-item']}>
+                <a href={'https://github.com/TalalAhmed311/Object-Tracking-Counter'} target={'_blank'}>
+                    <img src='/project-images/Object Tracking.jpeg' />
+                </a>
+                <div className={classes['project-desciption']}>
+                    <h1>Object Tracking and Counting Yolov5 + DeepSort</h1>
+                </div>
+            </div>
+
+
+            <div className={classes['project-item']}>
                 <a href={'https://github.com/TalalAhmed311/Audio-Classifier'}>
                     <img src='/project-images/audio classifier.png' />
                 </a>
